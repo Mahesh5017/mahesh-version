@@ -1,0 +1,47 @@
+.bg{
+  background-color: rgb(90, 102, 102);
+  height: 40vh;
+  top: 0;
+
+}
+.container {
+
+    background-color: #f9f9f9;
+    padding: 39px;
+   
+   
+  }
+  
+  .card {
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .card:hover {
+    transform: scale(1.03);
+  }  
+  .c,.b,.dm {
+    border-radius: 15px;
+    transition: transform 0.2s ease-in-out;
+  }
+  .c:hover,.b:hover,.dm:hover {
+    transform: scale(1);
+  }
+
+  .buttons{
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .buttons:hover{
+    transform: scale(1.03);
+  }
+
+  .temp .card-body {
+    background-color: #fcfcfc;
+    border-radius: 10px;
+  }
+  
+  .humidity .card-body {
+    background-color: #f7f9fa;
+  }
+  
